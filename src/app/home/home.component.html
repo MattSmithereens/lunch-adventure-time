@@ -12,11 +12,10 @@
   <br>
 
   <div>
-    
+    <label>Did you bring lunch?</label>
     <select #newLunch>
-      <option> Did you bring lunch </option>
-      <option value="yes"> yes </option>
       <option value="no"> no </option>
+      <option value="yes"> yes </option>
     </select>
 
     <br>
@@ -30,5 +29,5 @@
     <input #newColor>
   </div>
   <br>
-  <button (click)="submitForm(newName.value, newLunch.value, newColor.value);">Let's Eat!</button>
+  <button class="btn btn-outline-dark" (click)="submitForm(newName.value, newLunch.value, newColor.value);" routerLink="choice">Let's Eat!</button>
 </div>
