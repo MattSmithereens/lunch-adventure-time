@@ -12,6 +12,9 @@ import { MexicanFoodComponent } from './mexican-food/mexican-food.component';
 import { JapaneseFoodComponent } from './japanese-food/japanese-food.component';
 import { ChoiceComponent } from './choice/choice.component';
 import { UnhealthyMexicanFoodComponent } from './unhealthy-mexican-food/unhealthy-mexican-food.component';
+import { HealthyMexicanFoodComponent } from './healthy-mexican-food/healthy-mexican-food.component';
+import { HealthyJapaneseFoodComponent } from './healthy-japanese-food/healthy-japanese-food.component';
+import { UnhealthyJapaneseFoodComponent } from './unhealthy-japanese-food/unhealthy-japanese-food.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -28,7 +31,10 @@ export const firebaseConfig = {
     MexicanFoodComponent,
     JapaneseFoodComponent,
     ChoiceComponent,
-    UnhealthyMexicanFoodComponent
+    UnhealthyMexicanFoodComponent,
+    HealthyMexicanFoodComponent,
+    HealthyJapaneseFoodComponent,
+    UnhealthyJapaneseFoodComponent
   ],
   imports: [
     BrowserModule,

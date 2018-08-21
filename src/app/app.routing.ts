@@ -5,6 +5,9 @@ import { ChoiceComponent } from './choice/choice.component';
 import { MexicanFoodComponent } from './mexican-food/mexican-food.component';
 import { JapaneseFoodComponent } from './japanese-food/japanese-food.component';
 import { UnhealthyMexicanFoodComponent } from './unhealthy-mexican-food/unhealthy-mexican-food.component';
+import { HealthyMexicanFoodComponent } from './healthy-mexican-food/healthy-mexican-food.component';
+import { UnhealthyJapaneseFoodComponent } from './unhealthy-japanese-food/unhealthy-japanese-food.component';
+import { HealthyJapaneseFoodComponent } from './healthy-japanese-food/healthy-japanese-food.component';
 
 const appRoutes: Routes = [
   {
@@ -26,6 +29,19 @@ const appRoutes: Routes = [
   {
     path: 'choice/mexican/unhealthy',
     component: UnhealthyMexicanFoodComponent
+  },
+
+  {
+    path: 'choice/mexican/healthy',
+    component: HealthyMexicanFoodComponent
+  },
+  {
+    path: 'choice/japanese/unhealthy',
+    component: UnhealthyJapaneseFoodComponent
+  },
+  {
+    path: 'choice/japanese/healthy',
+    component: HealthyJapaneseFoodComponent
   }
 ];
 
