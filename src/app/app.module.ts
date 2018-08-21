@@ -8,6 +8,9 @@ import { HomeComponent } from './home/home.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { MexicanFoodComponent } from './mexican-food/mexican-food.component';
+import { JapaneseFoodComponent } from './japanese-food/japanese-food.component';
+import { ChoiceComponent } from './choice/choice.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -20,7 +23,10 @@ export const firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    MexicanFoodComponent,
+    JapaneseFoodComponent,
+    ChoiceComponent
   ],
   imports: [
     BrowserModule,
