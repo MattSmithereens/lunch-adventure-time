@@ -2,6 +2,8 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ChoiceComponent } from './choice/choice.component';
+import { MexicanFoodComponent } from './mexican-food/mexican-food.component';
+import { JapaneseFoodComponent } from './japanese-food/japanese-food.component';
 
 const appRoutes: Routes = [
   {
@@ -11,6 +13,14 @@ const appRoutes: Routes = [
   {
     path: 'choice',
     component: ChoiceComponent
+  },
+  {
+    path: 'choice/mexican',
+    component: MexicanFoodComponent
+  },
+  {
+    path: 'choice/japanese',
+    component: JapaneseFoodComponent
   }
 ];
 
