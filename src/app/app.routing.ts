@@ -23,7 +23,7 @@ const appRoutes: Routes = [
     component: MexicanFoodComponent
   },
   {
-    path: 'choice/japanese',
+    path: 'japanese',
     component: JapaneseFoodComponent
   },
   {
