@@ -11,6 +11,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { MexicanFoodComponent } from './mexican-food/mexican-food.component';
 import { JapaneseFoodComponent } from './japanese-food/japanese-food.component';
 import { ChoiceComponent } from './choice/choice.component';
+import { UnhealthyMexicanFoodComponent } from './unhealthy-mexican-food/unhealthy-mexican-food.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -26,7 +27,8 @@ export const firebaseConfig = {
     HomeComponent,
     MexicanFoodComponent,
     JapaneseFoodComponent,
-    ChoiceComponent
+    ChoiceComponent,
+    UnhealthyMexicanFoodComponent
   ],
   imports: [
     BrowserModule,

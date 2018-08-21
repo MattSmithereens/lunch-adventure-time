@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { ChoiceComponent } from './choice/choice.component';
 import { MexicanFoodComponent } from './mexican-food/mexican-food.component';
 import { JapaneseFoodComponent } from './japanese-food/japanese-food.component';
+import { UnhealthyMexicanFoodComponent } from './unhealthy-mexican-food/unhealthy-mexican-food.component';
 
 const appRoutes: Routes = [
   {
@@ -21,6 +22,10 @@ const appRoutes: Routes = [
   {
     path: 'choice/japanese',
     component: JapaneseFoodComponent
+  },
+  {
+    path: 'choice/mexican/unhealthy',
+    component: UnhealthyMexicanFoodComponent
   }
 ];
 
